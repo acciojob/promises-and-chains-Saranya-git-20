@@ -6,7 +6,7 @@ document.getElementById("ageForm").addEventListener("submit", function (e) {
   const age = parseInt(ageValue);
 
   if (name === "" || ageValue === "") {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
